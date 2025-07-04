@@ -331,16 +331,10 @@
 
     </section>
     <section class="scene scene-6">
-        <!-- <div><p id="date">7월 5일</p></div> -->
+        <div><p id="date">7월 5일</p></div>
         <div><p class="hbd hide">Happy Bday!</p></div>
         
-        <!-- 케이크와 촛불 애니메이션 -->
-        <div class="cake-animation">
-            <div class="cake-final">
-                <div class="inside"></div>
-            </div>
-            <div class="candle-final"></div>
-        </div>
+
         
         <!-- 축하하는 아빠와 태오 -->
         <div class="celebration-characters">
@@ -466,17 +460,17 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js'></script>
-<script src='http://asmitashinde.com/projects/js/birthday/ScrollMagic.js'></script>
-<script src='http://asmitashinde.com/projects/js/birthday/birthday.js'></script>
+<script src='js/ScrollMagic.js'></script>
+<script src='js/birthday.js'></script>
 
 <script>
 // Scene 6 케이크와 촛불 애니메이션
 $(document).ready(function() {
-    // ScrollMagic 컨트롤러 생성
-    var controller = new ScrollMagic.Controller();
+    // ScrollMagic 컨트롤러 생성 (구버전 문법)
+    var controller = new ScrollMagic();
     
     // Scene 6 케이크 애니메이션
-    var scene6 = new ScrollMagic.Scene({
+    var scene6 = new ScrollScene({
         triggerElement: '.scene-6',
         triggerHook: 0.8,
         duration: 0
@@ -484,40 +478,18 @@ $(document).ready(function() {
     .on('enter', function() {
         console.log('Scene 6 애니메이션 시작');
         
-        // 케이크가 올라오는 애니메이션
-        TweenMax.to('.cake-final', 1, {
-            opacity: 1,
-            y: 0,
-            ease: Power2.easeOut,
-            onComplete: function() {
-                console.log('케이크 애니메이션 완료');
-                
-                // 촛불을 즉시 보이게 하고 위치 조정
-                $('.candle-final').css({
-                    'opacity': '1',
-                    'transform': 'translateY(0)'
-                });
-                
-                // 불꽃 효과 즉시 시작
-                setTimeout(function() {
-                    $('.candle-final').addClass('lit');
-                    console.log('촛불 불꽃 효과 시작');
-                }, 200);
-            }
-        });
-        
-        // Happy Birthday 텍스트 애니메이션
+        // Happy Birthday 텍스트 애니메이션만 유지
         TweenMax.to('.hbd', 1, {
             opacity: 1,
             scale: 1,
             ease: Power2.easeOut,
-            delay: 1.5
+            delay: 0.5
         });
     })
     .addTo(controller);
     
     // Scene 7 풍선 애니메이션
-    var scene7 = new ScrollMagic.Scene({
+    var scene7 = new ScrollScene({
         triggerElement: '.scene-7',
         triggerHook: 0.8,
         duration: 0

@@ -278,7 +278,7 @@ input:-moz-placeholder {
     width: 100%;
     height: 768px;
     position: relative;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//scene-1.svg) 50% 0 repeat-x;
+    background: url(images/scene-1.svg) 50% 0 repeat-x;
     background-size: auto 768px;
     z-index: 10;
     -webkit-transform: translate3d(0, 0, 0)
@@ -296,25 +296,25 @@ body.scale .scene {
 }
 
 .scene-2 {
-    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-2.svg)
+    background-image: url(images/scene-2.svg)
 }
 
 .scene-3 {
-    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-3.svg)
+    background-image: url(images/scene-3.svg)
 }
 
 .scene-4 {
-    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-4.svg);
+    background-image: url(images/scene-4.svg);
     /* background-size: 900px auto; */
 }
 
 .scene-5 {
-    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-5.svg);
+    background-image: url(images/scene-5.svg);
     height: 600px;
 }
 
 .scene-6 {
-    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-6.svg);
+    background-image: url(images/scene-6.svg);
     /* height: 900px; */
 }
 
@@ -343,7 +343,7 @@ body.scale .scene {
     left: 0;
     bottom: 295px;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//batter.svg) 0 0 no-repeat;
+    background: url(images/batter.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 25;
     -webkit-transform: translate3d(0, 0, 0);
@@ -394,7 +394,7 @@ body.scale .scene {
     top: 540px;
     position: relative;
     margin: 0 auto;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//egg.svg) 0 0 no-repeat;
+    background: url(images/egg.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 20;
     -webkit-transform: translate3d(0, 0, 0)
@@ -411,7 +411,7 @@ body.scale .scene {
     width: 210px;
     height: 358px;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//blender.svg) 0 0 no-repeat;
+    background: url(images/blender.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 30
 }
@@ -436,7 +436,7 @@ body.scale .scene {
     width: 70px;
     height: 558px;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//egg-trial.svg) 0 0 no-repeat;
+    background: url(images/egg-trial.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 30
 
@@ -448,7 +448,7 @@ body.scale .scene {
     width: 210px;
     height: 358px;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//flour.svg) 0 0 no-repeat;
+    background: url(images/flour.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 30
 }
@@ -461,7 +461,7 @@ body.scale .scene {
     width: 210px;
     height: 358px;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//sugar.svg) 0 0 no-repeat;
+    background: url(images/sugar.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 30
 }
@@ -471,7 +471,7 @@ body.scale .scene {
     width: 228px;
     height: 228px;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//blender-handle.svg) 0 0 no-repeat;
+    background: url(images/blender-handle.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 100;
     top: 180px;
@@ -513,7 +513,7 @@ body.scale .scene {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//pan.svg) 0 0 no-repeat;
+    background: url(images/pan.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 20
 }
@@ -525,7 +525,7 @@ body.scale .scene {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//pan.svg) 0 0 no-repeat;
+    background: url(images/pan.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 50;
 
@@ -551,7 +551,7 @@ body.scale .scene {
     width: 306px;
     height: 368px;
     position: absolute;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//oven.svg) 0 0 no-repeat;
+    background: url(images/oven.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 50;
    margin-left: -150px;
@@ -570,7 +570,7 @@ body.scale .scene {
 
 .cake>.inside {
     position: relative;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//cake.svg) 0 0 no-repeat;
+    background: url(images/cake.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 30;
     height: 100%
@@ -599,7 +599,7 @@ body.scale .scene {
     bottom:0;
     width: 70px;
     height: 220px;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//candle.svg) 0 0 no-repeat;
+    background: url(images/candle.svg) 0 0 no-repeat;
     z-index: 20;
 }
 
@@ -1431,7 +1431,7 @@ button{
 
 .cake-final .inside {
     position: relative;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//cake.svg) 0 0 no-repeat;
+    background: url(images/cake.svg) 0 0 no-repeat;
     background-size: 100% auto;
     z-index: 30;
     height: 100%;
@@ -1445,7 +1445,7 @@ button{
     margin-top: -110px;
     width: 70px;
     height: 220px;
-    background: url(http://asmitashinde.com/projects/css/images/birthday//candle.svg) 0 0 no-repeat;
+    background: url(images/candle.svg) 0 0 no-repeat;
     background-size: contain;
     z-index: 35;
     opacity: 0;
