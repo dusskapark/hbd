@@ -1,0 +1,1604 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/* 한국어 폰트 추가 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    color:white;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+strong {
+    font-weight: bold
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: bold
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    padding: 0
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #E9E8E4;
+    font-size: 20px;
+    font-family: circular, sans-serif;
+    color: #1d1d1b
+}
+
+a {
+    color: #1d1d1b
+}
+
+::-webkit-input-placeholder {
+    color: #666
+}
+
+::-moz-placeholder {
+    color: #666
+}
+
+:-ms-input-placeholder {
+    color: #666
+}
+
+input:-moz-placeholder {
+    color: #666
+}
+
+.scenes {
+    position: relative;
+    margin-left: 0 auto;
+    width: 100%
+}
+
+.items {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+}
+
+.overflow {
+    width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.scene {
+    margin-top: -2px;
+    width: 100%;
+    height: 768px;
+    position: relative;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//scene-1.svg) 50% 0 repeat-x;
+    background-size: auto 768px;
+    z-index: 10;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+body.scale .scene {
+    height: 100vh;
+    background-size: cover
+}
+
+.scene-1 {
+    height: 1828px;
+    background-size: 1920px auto;
+    background-position: 50% -100px
+}
+
+.scene-2 {
+    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-2.svg)
+}
+
+.scene-3 {
+    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-3.svg)
+}
+
+.scene-4 {
+    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-4.svg);
+    /* background-size: 900px auto; */
+}
+
+.scene-5 {
+    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-5.svg);
+    height: 600px;
+}
+
+.scene-6 {
+    background-image: url(http://asmitashinde.com/projects/css/images/birthday//scene-6.svg);
+    /* height: 900px; */
+}
+
+.scene-4-text {
+    position: absolute;
+    z-index: 30;
+    top: -240px;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+    text-align: center
+}
+
+.grounded {
+    width: 1px;
+    margin: 0 auto;
+    position: relative;
+    top: 636px;
+    display:block;
+}
+
+.batter {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 295px;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//batter.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 25;
+    -webkit-transform: translate3d(0, 0, 0);
+    display:inline;
+
+}
+
+.batter {
+    bottom: auto;
+    top: 0
+}
+
+.batter-1{
+    margin-left: -5px;
+    top :-10px;
+
+}
+
+.batter-2 {
+    margin-left: 30px
+}
+
+.batter-3 {
+    margin-left: -73px;
+    top :-10px;
+}
+
+.batter-4{
+    margin-left: 2px
+}
+
+.batter-5{
+    margin-left: -52px
+}
+
+.batter-6 {
+    margin-left: -5px
+}
+
+.batter-7 {
+    margin-left: -1px
+}
+
+.egg,
+.egg-2 {
+    width: 84px;
+    height: 108px;
+    top: 540px;
+    position: relative;
+    margin: 0 auto;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//egg.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 20;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+.egg-2 {
+    top: 450px
+}
+
+.blender {
+    left: 50%;
+    bottom: 270px;
+    margin-left: -105px;
+    width: 210px;
+    height: 358px;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//blender.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 30
+}
+
+
+
+.batter-in-blender {
+    left: 50%;
+    bottom: -150px;
+    margin-left: -96px;
+    width: 200px;
+    height: 358px;
+    position: absolute;
+    z-index: 30;
+    background-size: 100% auto;
+}
+/*
+.egg-trial{
+    left:54%;
+
+    margin-left: -105px;
+    width: 70px;
+    height: 558px;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//egg-trial.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 30
+
+}*/
+.flour {
+    left:61%;
+    bottom: 470px;
+    margin-left: -105px;
+    width: 210px;
+    height: 358px;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//flour.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 30
+}
+
+
+.sugar {
+    right:60%;
+    bottom: 470px;
+    margin-right: -105px;
+    width: 210px;
+    height: 358px;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//sugar.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 30
+}
+
+
+.blender>.handle {
+    width: 228px;
+    height: 228px;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//blender-handle.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 100;
+    top: 180px;
+    left: -10px;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+.pan-wrapper {
+    left: 50%;
+    margin-left: -118px;
+    top: 0;
+    width: 236px;
+    height: 134px;
+    position: absolute
+}
+
+.pan-hide {
+    left: 50%;
+    top: 250px;
+    width: 1px;
+    height: 1px;
+    position: absolute
+}
+
+.pan,
+.pan-with-batter {
+    left: 50%;
+    margin-left: -118px;
+    top: 0px;
+    width: 236px;
+    height: 134px;
+    position: absolute
+}
+
+.pan .background,
+.pan-with-batter .background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//pan.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 20
+}
+
+.pan .foreground,
+.pan-with-batter .foreground {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//pan.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 50;
+
+}
+
+.pan-with-batter  {
+    position: relative;
+    height: 100%;
+    z-index: 20
+}
+
+.oven-hide {
+    position: absolute;
+    bottom: 251px;
+    left: 0;
+    width: 100%;
+    height: 268px
+}
+
+.oven {
+    left: 50%;
+    bottom: 251px;
+    width: 306px;
+    height: 368px;
+    position: absolute;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//oven.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 50;
+   margin-left: -150px;
+
+}
+
+
+.cake {
+    margin: 0 auto;
+    top: -560px;
+    width: 300px;
+    height: 250px;
+    z-index: 30;
+    position: relative
+}
+
+.cake>.inside {
+    position: relative;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//cake.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 30;
+    height: 100%
+}
+
+.start-pouring {
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    z-index: 30
+}
+
+.egg-pouring {
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    z-index: 30
+}
+.candle {
+    position: absolute;
+    left: 112px;
+    bottom:0;
+    width: 70px;
+    height: 220px;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//candle.svg) 0 0 no-repeat;
+    z-index: 20;
+}
+
+/* 촛불 불꽃 효과 */
+.candle::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 35px;
+    width: 6px;
+    height: 10px;
+    background: radial-gradient(circle, #ff6b35 20%, #f7931e 40%, transparent 70%);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    animation: candle-flame 1.5s ease-in-out infinite alternate;
+    z-index: 25;
+}
+
+@keyframes candle-flame {
+    0% {
+        opacity: 0.8;
+        transform: scale(1) rotate(-2deg);
+    }
+    25% {
+        opacity: 1;
+        transform: scale(1.1) rotate(1deg);
+    }
+    50% {
+        opacity: 0.9;
+        transform: scale(0.95) rotate(-1deg);
+    }
+    75% {
+        opacity: 1;
+        transform: scale(1.05) rotate(2deg);
+    }
+    100% {
+        opacity: 0.85;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.egg-stop {
+    position: absolute;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    top: 1390px
+}
+
+.hide {
+    visibility: hidden;
+    z-index: 0
+}
+
+.ScrollSceneIndicators {
+    z-index: 1000 !important
+}
+
+.just-form .scene {
+    min-height: 100vh;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%
+}
+
+
+
+.egg-trial{
+    left: 48%;
+    width: 70px;
+    height: 558px;
+    position: absolute;
+    z-index: 30;
+}
+
+.text {
+    margin: 0 auto;
+    width: 280px;
+    text-align: center;
+    overflow: hidden;
+    color:white;
+}
+
+
+#hat{
+    margin: 0 auto;
+    width: 280px;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    z-index: 20;
+    margin: 0;
+    padding: 0;
+    left: 47%;
+    fill:white;stroke:#000000;stroke-miterlimit:10;
+
+}
+
+
+.text h1,
+.text h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
+    position: absolute;
+    z-index: 20;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    color:white;
+}
+
+.text h1 {
+    width: 90px;
+    height: 96px;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    margin-left: -45px;
+    top: 90px
+}
+
+.text h2 {
+    width: 180px;
+    height: 52px;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    margin-left: -90px;
+    top: 190px
+}
+
+.text p span {
+    display: block
+}
+
+.scene-1 .text {
+    padding-top: 280px
+}
+
+.scene-1 .text-bottom {
+    padding-top: 1060px
+}
+
+.scene-2 .text {
+    padding-top: 550px
+}
+
+.scene-3 .text {
+    padding-top: 550px
+}
+
+.scene-4 .text {
+    padding-top: 530px
+}
+
+.scene-5 .text {
+    padding-top: 50px
+}
+
+.scene-6 .text {
+    padding-top: 580px
+}
+
+.intro {
+    font-size: 20px;
+    margin-top: 10px;
+    color:#B7B7B7;
+
+}
+.intro1 {
+    color:white;
+}
+
+
+.myInfo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    left: 0
+}
+
+.myInfo>li {
+    display: inline-block;
+    margin: 5px 20px
+}
+
+.myInfo>li>a {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+
+
+#date {
+    position: absolute;
+    z-index: 20;
+   left:25%;
+    color:white;
+    width: 102px;
+    height: 124px;
+    top:21%;
+    font-size: 30px;
+}
+.hbd{
+    position: absolute;
+    z-index: 20;
+    right:35%;
+    color:white;
+    width: 102px;
+    height: 124px;
+    top:10%;
+    font-size: 50px;
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+button{
+    background: transparent;
+    border: 10px !important;
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: underline;
+}
+
+.codepen{
+    color:white;
+}
+
+/* 배송 정보 스타일 */
+.delivery-info {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.delivery-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: white;
+}
+
+.delivery-info p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* 캐릭터 스타일 */
+.characters {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 25;
+}
+
+.dad-character, .son-character {
+    position: relative;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.son-character {
+    animation-delay: 0.5s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* 캐릭터 호버 효과 */
+.dad-character:hover, .son-character:hover {
+    animation-play-state: paused;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* 캐릭터 손 흔들기 애니메이션 */
+.dad-character svg, .son-character svg {
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+}
+
+/* 요리하는 캐릭터들 */
+.cooking-characters {
+    position: absolute;
+    bottom: 200px;
+    left: 60%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 25;
+}
+
+.dad-cooking, .son-cooking {
+    position: relative;
+    animation: cooking-motion 1.5s ease-in-out infinite;
+}
+
+.son-cooking {
+    animation-delay: 0.3s;
+}
+
+@keyframes cooking-motion {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-5px) rotate(2deg);
+    }
+    50% {
+        transform: translateY(-8px) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-5px) rotate(-2deg);
+    }
+}
+
+/* 요리 도구 애니메이션 */
+.dad-cooking svg ellipse, .son-cooking svg ellipse {
+    animation: stir 1s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes stir {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 배송 비행기 애니메이션 */
+.delivery-plane {
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    transform: translateY(-50%);
+    z-index: 30;
+    animation: fly-across 8s ease-in-out infinite;
+}
+
+.delivery-plane svg {
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+
+@keyframes fly-across {
+    0% {
+        left: -150px;
+        transform: translateY(-50%) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-60%) rotate(2deg);
+    }
+    50% {
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-40%) rotate(-2deg);
+    }
+    100% {
+        left: calc(100% + 150px);
+        transform: translateY(-50%) rotate(0deg);
+    }
+}
+
+/* 프로펠러 회전 애니메이션 */
+.propeller {
+    animation: spin-propeller 0.1s linear infinite;
+    transform-origin: 100px 30px;
+}
+
+@keyframes spin-propeller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 구름 애니메이션 */
+.cloud {
+    position: absolute;
+    animation: float-cloud 15s ease-in-out infinite;
+}
+
+.cloud-1 {
+    top: 20%;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.cloud-2 {
+    top: 60%;
+    left: 60%;
+    animation-delay: 5s;
+}
+
+.cloud-3 {
+    top: 30%;
+    left: 80%;
+    animation-delay: 10s;
+}
+
+@keyframes float-cloud {
+    0%, 100% {
+        transform: translateX(0) translateY(0);
+        opacity: 0.6;
+    }
+    25% {
+        transform: translateX(-20px) translateY(-10px);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translateX(-40px) translateY(5px);
+        opacity: 0.7;
+    }
+    75% {
+        transform: translateX(-20px) translateY(-5px);
+        opacity: 0.9;
+    }
+}
+
+/* 배송 경로 */
+.delivery-route {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 25;
+}
+
+.route-point {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    animation: pulse-point 2s ease-in-out infinite;
+}
+
+.route-line {
+    flex: 1;
+    height: 4px;
+    background: linear-gradient(to right, #4A90E2, #87CEEB, #4A90E2);
+    margin: 0 20px;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.route-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
+    animation: route-shine 3s ease-in-out infinite;
+}
+
+@keyframes pulse-point {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes route-shine {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+/* Scene 5 배경 스타일 */
+.scene-5 {
+    background: linear-gradient(135deg, #87CEEB 0%, #E0F6FF 50%, #87CEEB 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Scene 7 - 생일 카드 */
+.scene-7 {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.scene-7 .text {
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    z-index: 50;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.scene-7 .text p {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* 생일 카드 스타일 */
+.birthdayCard {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(2500px);
+    transition: 4s;
+    margin-top: 150px;
+}
+
+.birthdayCard:hover {
+    transform: perspective(2500px) rotate(5deg);
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
+}
+
+.birthdayCard:hover .cardFront {
+    transform: rotateY(-160deg); 
+}
+
+.birthdayCard:hover .front-text {
+    display: none;
+}
+
+.birthdayCard:hover .wrap-deco {
+    display: none;
+}
+
+.birthdayCard:hover .wrap-decoTwo {
+    display: none;
+}
+
+.birthdayCard:hover .plate {
+    display: none;
+}
+
+.cardFront {
+    position: relative;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    transform-origin: left;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
+    transition: .4s;
+    border-radius: 15px;
+}
+
+.happy, .toyou {
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    backface-visibility: hidden;
+    font-size: 32px; 
+    font-weight: bold;
+    color: #333;
+}
+
+.happy {
+    top: 220px;
+}
+
+.toyou {
+    top: 140px;
+}
+
+.bday {
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    top: 180px;
+    color: #ff6b6b;
+}
+
+.wrap-deco {
+    position: absolute;
+    top: -230px;
+    left: -200px;
+}
+
+.decorations {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #333;
+    border-radius: 50%;
+}
+
+.decorations:before, .decorations:after, .decorationsTwo:before, .decorationsTwo:after, .decorationsThree:before, .decorationsThree:after {
+    content:"";
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width:0;
+    height:0;
+}
+
+.decorations:before {
+    border-top: 40px solid #f15bb5;
+    top: 297px;
+    left: 210px;
+    transform: rotate(-5deg);
+}
+
+.decorations:after{
+    border-top: 40px solid #f4d35e;
+    top: 288px;
+    left: 260px;
+    transform: rotate(-17deg);
+}
+
+.decorationsTwo:before {
+    border-top: 40px solid #00f5d4;
+    top: 268px;
+    left: 315px;
+    transform: rotate(-30deg);
+}
+
+.decorationsTwo:after, .decorationsThree:after {
+    border-top: 40px solid #9b5de5;
+    top: 238px;
+    left: 355px;
+    transform: rotate(-40deg);
+}
+
+.wrap-decoTwo {
+    transform: scaleX(-1);
+    position: absolute;
+    top: -230px;
+    left: 445px; 
+}
+
+.decorationsThree:before {
+    border-top: 40px solid #00bbf9;
+    top: 268px;
+    left: 315px;
+    transform: rotate(-30deg);
+}
+
+.birthdayCard .plate {
+    position: absolute;
+    width: 150px;
+    height: 6px;
+    background-color: #00bbf9;
+    left: 75px;
+    top: 240px;
+}
+
+.birthdayCard .cake {
+    position: absolute;
+    overflow: hidden;
+    width: 120px;
+    height: 60px;
+    background-color: #f15bb5;
+    border-radius: 10px 10px 0 0;
+    top: -60px;
+    left: 15px;
+    box-shadow: inset 0 -15px #f9c74f, inset 0 15px #432818;
+}
+
+.birthdayCard .cake:before {
+    content:"";
+    position: absolute;
+    background-color: #432818;
+    width: 10px;
+    height: 20px;
+    top: 5px;
+    border-radius: 20px;
+    box-shadow: 12px 5px #f15bb5, 24px 0px #432818, 36px 2px #f15bb5, 48px 5px #432818, 60px 5px #f15bb5, 72px 0px #432818, 84px 5px #f15bb5, 96px 5px #432818, 108px 5px #f15bb5;
+}
+
+.birthdayCard .plate:before {
+    content:"";
+    position: absolute;
+    background: repeating-linear-gradient(-45deg, #9b5de5, #9b5de5 3px, #00f5d4 3px, #00f5d4 6px);
+    width: 8px;
+    height: 30px;
+    top: -90px;
+    left: 71px;
+}
+
+.birthdayCard .plate:after {
+    content:"";
+    position: absolute;
+    width: 1px;
+    height: 6px;
+    background-color: #333;
+    top: -96px;
+    left: 75px;
+}
+
+.birthdayCard .flame {
+    position: absolute;
+    background-color: #fb5607;
+    border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    transform: rotate(-45deg);
+    width: 18px;
+    height: 18px;
+    opacity: 0.7;
+    top: -112px;
+    left: 66px;
+    animation: flicker 1s ease-in-out infinite alternate;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0.7;
+        transform: rotate(-45deg) scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-45deg) scale(1.1);
+    }
+}
+
+.cardInside {
+    position: absolute;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.inside-text {
+    position: relative;
+    top: -180px;
+    transform: scale(0.6);
+}
+
+.wishes {
+    position: relative;
+    top: -120px;
+    margin: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wishes p {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.wishes p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff6b6b;
+}
+
+.name {
+    margin-left: 120px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 30px;
+}
+
+/* Scene 6 케이크 애니메이션 */
+.cake-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.cake-final {
+    margin: 0 auto;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.cake-final .inside {
+    position: relative;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//cake.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    z-index: 30;
+    height: 100%;
+}
+
+.candle-final {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -35px;
+    margin-top: -110px;
+    width: 70px;
+    height: 220px;
+    background: url(http://asmitashinde.com/projects/css/images/birthday//candle.svg) 0 0 no-repeat;
+    background-size: contain;
+    z-index: 35;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.candle-final::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 35px;
+    width: 6px;
+    height: 10px;
+    background: radial-gradient(circle, #ff6b35 20%, #f7931e 40%, transparent 70%);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    animation: candle-flame 1.5s ease-in-out infinite alternate;
+    z-index: 40;
+    opacity: 0;
+}
+
+/* 촛불 불꽃이 보이도록 하는 클래스 */
+.candle-final.lit::after {
+    opacity: 1;
+}
+
+/* 축하하는 캐릭터들 (Scene 6) */
+.celebration-characters {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 500px;
+    z-index: 25;
+}
+
+.dad-celebration, .son-celebration {
+    position: relative;
+    animation: celebration-dance 2s ease-in-out infinite;
+}
+
+.son-celebration {
+    animation-delay: 0.5s;
+}
+
+@keyframes celebration-dance {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    40% {
+        transform: translateY(-15px) rotate(5deg);
+    }
+    60% {
+        transform: translateY(-10px) rotate(-5deg);
+    }
+}
+
+/* 축하 캐릭터 호버 효과 */
+.dad-celebration:hover, .son-celebration:hover {
+    animation: celebration-dance 0.5s ease-in-out infinite alternate;
+}
+
+/* 풍선 애니메이션 스타일 */
+.balloons-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.balloon {
+    position: absolute;
+    bottom: -100px;
+    animation: float-up 8s ease-out infinite;
+}
+
+.balloon-body {
+    width: 30px;
+    height: 40px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.balloon-body::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid inherit;
+}
+
+.balloon-string {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 50px;
+    background: #333;
+}
+
+@keyframes float-up {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-50vh) rotate(5deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) rotate(-5deg);
+        opacity: 0;
+    }
+}
+
+.balloon-1 {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.balloon-2 {
+    left: 25%;
+    animation-delay: 1s;
+}
+
+.balloon-3 {
+    left: 40%;
+    animation-delay: 2s;
+}
+
+.balloon-4 {
+    left: 55%;
+    animation-delay: 3s;
+}
+
+.balloon-5 {
+    left: 70%;
+    animation-delay: 4s;
+}
+
+.balloon-6 {
+    left: 85%;
+    animation-delay: 5s;
+}
+
+/*# sourceMappingURL=full.css.map */
